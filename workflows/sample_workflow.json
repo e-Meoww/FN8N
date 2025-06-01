@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "HttpRequest",
+      "config": {
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/todos/1"
+      },
+      "next": []
+    }
+  ]
+}
