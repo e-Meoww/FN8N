@@ -22,17 +22,27 @@ This is my personal implementation and extension of [n8n](https://n8n.io), an op
 
 ---
 
-## 📂 Folder Structure (v1.0.0)
+## 🔄 Version 2.0.0
+
+### 🚀 What's New in v2.0.0
+
+This version marks a significant structural and functional upgrade from the initial prototype.
+
+- ✅ Introduced custom workflow execution logic
+- 📁 Improved modular folder structure
+- 🔌 Added basic node handling system
+- 🧪 Local testing done for flow processing
+- 🧹 Cleaned up virtual environment tracking (`.venv/` removed from repo)
+
+---
+
+## 📂 Folder Structure (v2.0.0)
 /n8n-custom
 ├── workflows/
 ├── nodes/
 ├── engine/
 ├── package.json
 └── README.md
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -56,7 +66,7 @@ Edit
 
 This repo uses Git **tags** to manage progress:
 - `v1.0.0`: Initial working structure  
-- `v2.0.0`: (Coming soon) — Add custom node execution
+- `v2.0.0`: 
 
 ---
 
