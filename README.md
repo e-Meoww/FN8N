@@ -23,3 +23,44 @@ This is my personal implementation and extension of [n8n](https://n8n.io), an op
 ---
 
 ## 📂 Folder Structure (v1.0.0)
+/n8n-custom
+├── workflows/
+├── nodes/
+├── engine/
+├── package.json
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 📌 Next Steps
+
+- Add a basic **workflow runner**
+- Create custom **nodes** with input/output
+- Enable **user-defined flows**
+
+---
+
+## 🧠 Vision
+
+- A clean, self-built version of n8n for better learning
+- Eventually usable by others as an automation engine
+- Lightweight and CLI/API-based to start (no GUI for now)
+
+---
+
+## 🔖 Versioning
+
+This repo uses Git **tags** to manage progress:
+- `v1.0.0`: Initial working structure  
+- `v2.0.0`: (Coming soon) — Add custom node execution
+
+---
+
+## 🧑‍💻 Author
+
+This project is a part of my learning and developer portfolio.  
+All code is written and managed manually with GitHub version control.
