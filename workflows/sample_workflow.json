@@ -2,12 +2,18 @@
   "nodes": [
     {
       "id": "1",
-      "type": "HttpRequest",
+      "type": "WebhookTrigger",
       "config": {
-        "method": "GET",
-        "url": "https://jsonplaceholder.typicode.com/todos/1"
+        "port": 5000
       },
+      "next": ["2"]
+    },
+    {
+      "id": "2",
+      "type": "Transform",
+      "config": {},
       "next": []
     }
   ]
 }
+
