@@ -1,4 +1,4 @@
-# n8n Custom Workflow Engine
+# FN8N Custom Workflow Engine
 
 This is my personal implementation and extension of [n8n](https://n8n.io), an open-source workflow automation tool. The goal of this project is to understand and build my own customizable version of n8n — including workflow creation, node integration, and automation logic — from scratch.
 
