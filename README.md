@@ -15,26 +15,16 @@ This is my personal implementation and extension of [n8n](https://n8n.io), an op
 
 ## ✅ Current Progress
 
-### `v1.0.0`
-- Set up the basic folder structure
-- Verified first working test with minimal code
-- Committed and tagged as `v1.0.0`
+## 📌 Version: 2.1.0
+
+### 🔥 New Features in v2.1.0
+
+- 📧 **EmailNode** – Send emails via Gmail SMTP with app password support  
+- 🌐 **WebhookTriggerNode** – Trigger workflows using external HTTP POST requests  
+- 🔀 **ConditionNode** – Add branching logic in workflows using conditional checks
 
 ---
 
-## 🔄 Version 2.0.0
-
-### 🚀 What's New in v2.0.0
-
-This version marks a significant structural and functional upgrade from the initial prototype.
-
-- ✅ Introduced custom workflow execution logic
-- 📁 Improved modular folder structure
-- 🔌 Added basic node handling system
-- 🧪 Local testing done for flow processing
-- 🧹 Cleaned up virtual environment tracking (`.venv/` removed from repo)
-
----
 
 ## 📂 Folder Structure (v2.0.0)
 /n8n-custom
@@ -62,11 +52,13 @@ This version marks a significant structural and functional upgrade from the init
 
 ---
 
-## 🔖 Versioning
+## 📜 Version History
 
-This repo uses Git **tags** to manage progress:
-- `v1.0.0`: Initial working structure  
-- `v2.0.0`: 
+| Version   | Highlights                                                   |
+|-----------|--------------------------------------------------------------|
+| v2.1.0    | Added EmailNode, WebhookTriggerNode, ConditionNode          |
+| v2.0.0    | Modular core, node execution system, proper folder structure |
+| v1.0.0    | Initial test with basic structure and execution logic        |
 
 ---
 
